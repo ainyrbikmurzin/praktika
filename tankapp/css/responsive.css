@@ -1,0 +1,517 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width:1200px) and (max-width: 1500px) {
+	#banner img.iphone{
+		width: 500px;
+		height: auto;
+	}
+	img#cloud1 {
+		left: 10px;
+	}
+	img#cloud3 {
+		right: 115px;
+		top: 115px;
+	}
+	img#cloud4 {
+		bottom: 100px;
+		right: 40px;
+	}
+	img#cloud2 {
+		bottom: -160px;
+	}
+}
+@media only screen and (min-width:992px) and (max-width: 1200px) {
+	#banner h1{
+		font-size: 48px;
+	}
+	#banner p.innerp {
+		font-size: 16px;
+	}
+	img#cloud1 {
+		left: 0;
+	}
+	img#cloud3 {
+		right: 115px;
+		top: 115px;
+	}
+	img#cloud4 {
+		bottom: 100px;
+		right: 0;
+	}
+	img#cloud2 {
+		bottom: -70px;
+	}
+	#banner input{
+		width: 320px;
+	}
+	#banner button.btnsignup{
+		margin-left: 20px;
+	}
+	aside img {
+		margin: 0 8px;
+	}
+	#work{
+		background: url('../img/macbook.png') no-repeat right 42%;   
+		background-size: 50%;
+		padding: 50px 0 ;
+	}
+	#work article {
+		padding-top: 15px;
+	}
+	
+}
+
+@media only screen and (min-width: 960px) and (max-width: 991px) {
+	#banner h1 {
+		font-size: 36px;
+		line-height: 55px;
+		padding-top: 45px;
+	}
+	#banner p.headp{
+		font-size: 15px;
+	}
+	#banner input{
+		width: 220px;
+	}
+	#banner button.btnsignup{
+		margin-left: 10px;
+		width: 110px;
+	}
+	#banner p.innerp{
+		padding-top: 35px;
+	}
+	img#cloud3 {
+		right: 75px;
+		top: 75px;
+	}
+	img#cloud4 {
+		bottom: 70px;
+		right: -20px;
+	}
+	img#cloud2 {
+		bottom: -90px;
+	}
+	aside img {
+		margin: 0 10px;
+		width: 120px;
+		height: auto;
+	}
+	#work h2{
+		padding-bottom: 20px;
+	}
+	aside {    
+		padding: 50px 0 30px;
+	}
+	#work{
+		padding: 50px 0;
+	}
+	#work article img,#app article img{
+		margin-right: 5px;
+	}
+	#work h3{
+		font-size: 18px;
+		padding-bottom: 10px;
+	}
+	#app h3 {
+		font-size: 22px;
+		padding-bottom: 15px;
+	}
+	#work{
+		background: url('../img/macbook.png') no-repeat right 25%;   
+		background-size: 50%;
+		padding: 50px 0 ;
+	}
+	#app {
+		padding: 40px 0;
+	}
+	#app h2 {
+		padding-bottom: 80px;
+	}	
+	#contact p.headp {
+		font-size: 20px;
+	}
+	#contact input{
+		width: 500px;
+	}
+	#contact button.btnsignup{
+		margin-left: 20px;
+	}
+	footer nav ul li a{
+		font-size: 13px;	
+		padding: 5px 10px;
+	}
+	#app ul li h3 img{
+		margin-top: 0px;
+	}
+	#app ul li img{
+		margin-top: 80px;
+	}
+	#app p.openp {
+		font-size: 15px;
+		line-height: 25px;
+	}
+}
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {	
+	#app ul li h3 img{
+		margin-top: 0px;
+	}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#banner {
+		padding: 50px 0 0;
+	}
+	#banner h1 {
+		font-size: 36px;
+		line-height: 55px;
+		padding-top: 45px;
+	}
+	#banner p.headp{
+		font-size: 15px;
+	}
+	#banner input{
+		width: 220px;
+		font-size: 15px;
+	}
+	#banner button.btnsignup{
+		margin-left: 10px;
+		width: 110px;
+		font-size: 15px;
+	}
+	#banner p.innerp{
+		padding-top: 35px;
+	}
+	img#cloud3 {
+		right: 75px;
+		top: 75px;
+	}
+	img#cloud4 {
+		bottom: 70px;
+		right: 0px;
+	}
+	img#cloud2 {
+		bottom: -90px;
+	}
+	img#cloud1 {
+		left: 0;
+	}
+	aside img {
+		margin: 0 10px;
+		width: 120px;
+		height: auto;
+	}
+	#work h2{
+		padding-bottom: 20px;
+	}
+	#work{
+		background: url('../img/macbook.png') no-repeat right 25%;   
+		background-size: 50%;
+		padding: 50px 0 ;
+	}
+	#work article img{
+		margin-right: 5px;
+	}
+	#work h3 {		
+		font-size: 18px;
+	}
+	#work article {
+		padding-top: 10px;
+	}
+	#app {
+		padding: 50px 0;
+	}
+	#app h2 {
+		padding-bottom: 70px;
+	}
+	#app h3 {
+		font-size: 22px;
+		padding-bottom: 15px;
+	}
+	#app ul li img{
+		margin-top: 80px;
+	}
+	#app p.openp {
+		font-size: 15px;
+		line-height: 24px;
+	}
+	#contact p.headp {
+		font-size: 20px;
+	}
+	#contact input{
+		width: 500px;
+	}
+	#contact button.btnsignup{
+		margin-left: 20px;
+	}
+	footer nav ul li a{
+		font-size: 13px;	
+		padding: 5px 10px;
+	}
+
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	.logo{
+		margin-top: 10px;
+	}
+	header{
+		padding: 0;
+	}
+	header.sticky{
+		padding: 10px 0;
+	}
+	.nav-collapse a{
+		padding: 10px 15px;
+	}
+	#banner img.iphone{
+		display: none;
+	}
+	#work{
+		background:none;
+	}
+	#work h2{
+		padding: 0;
+	}
+	#contact p.headp{
+		line-height: 24px;
+		padding: 15px 0;
+	}
+	footer img{
+		margin: 0 auto 20px;
+		display: block;
+	}
+	footer {
+		padding: 20px 0;
+	}
+	footer p.openp{
+		text-align: center;
+	}
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#banner h1 {
+		font-size: 40px;   
+		line-height: 45px;
+		padding-top: 35px;
+	}
+	#banner {
+		padding: 50px 0;
+	}
+	#banner p.headp, #contact p.headp{
+		font-size: 18px;  
+	}
+	#banner input{
+		width: 310px;
+	}
+	#banner button.btnsignup{
+		margin-left: 20px;
+	}
+	#banner p.innerp{
+		padding-top: 30px;
+	}
+	img#cloud1 {
+		left: 10px;
+	}
+	img#cloud2 {
+		bottom: -35px;
+	}
+	img#cloud3 {
+		right: 20px;
+		top: 20px;
+	}
+	img#cloud4 {
+		bottom: 220px;
+		right: 10px;
+	}
+	aside img {
+		margin: 0 25px 10px 0;
+	}
+	#work h2, #app h2, #contact h2{
+		font-size: 30px;
+	}
+	#work h3{
+		padding-bottom: 15px;
+	}
+	#app h3 {
+		font-size: 22px;
+	}
+	#app h2{
+		padding-bottom: 30px;
+	}
+	#work article {
+		padding-top: 15px;
+	}
+	#work {
+		padding: 30px 0;
+	}
+	#app p.openp {
+		font-size: 15px;
+		line-height: 25px;
+	}
+	#contact,#app{
+		padding: 50px 0;
+	}
+	#contact input{
+		width: 280px;
+		height: 60px;
+		background: url('../img/input.png') no-repeat 15px center; 
+		font-size: 18px;
+		padding-left: 55px;
+	}
+	#contact button.btnsignup{
+		margin-left: 0px;
+		width: 150px;
+		height: 60px;
+		font-size: 17px;
+	}
+	footer nav ul li a{
+		font-size: 15px;
+		padding: 5px 8px;
+	}
+	footer nav ul{
+		text-align: center;
+		float: none;
+	}
+	footer nav ul.social{
+		float: none;
+		clear: both;
+	}
+	footer nav ul li:nth-child(5){
+		border: none;
+	}
+	footer nav {
+		float: none;
+	}
+
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {	
+	#banner h1 {
+		font-size: 29px;   
+		line-height: 35px;
+		padding-top: 35px;
+	}
+	#banner {
+		padding: 30px 0;
+	}
+	#banner p.headp{
+		font-size: 12px;  
+		line-height: 25px;
+	}
+	#banner input{
+		width: 100%;
+		height: 50px;
+	}
+	#banner button.btnsignup{
+		margin: 10px auto 0;
+		display: block;
+		height: 50px;
+	}
+	#banner p.innerp{
+		padding-top: 30px;
+	}
+	img#cloud1 {
+		left: 10px;
+	}
+	img#cloud2 {
+		bottom: -10px;
+	}
+	img#cloud3 {
+		right: 20px;
+		top: 0;
+	}
+	img#cloud4 {
+		bottom: 220px;
+		right: 10px;
+	}
+	aside{
+		padding: 30px 0 15px;
+	}
+	aside img {
+		margin: 0 0 10px 0;
+	}
+	#work h2, #app h2, #contact h2{
+		font-size: 20px;
+	}
+	#work h3{
+		padding-bottom: 5px;
+		font-size: 15px;
+	}
+	#app h3 {	
+		font-size: 16px;
+		padding-bottom: 15px;
+	}
+	#app h2{
+		padding-bottom: 10px;
+	}
+	#work article {
+		padding-top: 15px;
+	}
+	#work {
+		padding: 0 0 15px;
+	}
+	#work article img {	
+		top: 7px;
+		margin-right: 5px;
+		width: 30px;
+	}
+	#app ul li h3 img{
+		width: 40px;
+		margin-right: 5px;
+	}
+	#app p.openp {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	#contact,#app{
+		padding: 30px 0;
+	}
+	#contact p.headp {
+		font-size: 15px;
+		padding: 5px 0;
+	}
+	#contact input{
+		width: 100%;
+		height: 50px;
+		background: url('../img/input.png') no-repeat 15px center; 
+		font-size: 16px;
+		padding-left: 55px;
+	}
+	#contact button.btnsignup{
+		margin: 10px auto 0;
+		display: block;
+		width: 150px;
+		height: 50px;
+		font-size: 16px;
+	}
+	footer nav ul li a{
+		font-size: 13px;
+		padding: 0 10px;
+	}
+	
+	footer nav ul{
+		text-align: center;
+		float: none;
+	}
+	footer nav ul.social{
+		float: none;
+		clear: both;
+	}
+	footer nav ul li:nth-child(5){
+		border: none;
+	}
+	footer nav {
+		float: none;
+	}
+	
+}
+
